@@ -347,7 +347,7 @@ letter-spacing: 0.02em;
 .button-portfolio{
     display: block;
     padding: 6px 22px;
-    margin-right: 8px;
+    
     font-family: 'Roboto';
     color: var(--primary-text-color);
     background-color: #F5F4FA;
@@ -359,7 +359,9 @@ letter-spacing: 0.02em;
     text-decoration: none;
     cursor: pointer;
     border: none;
-    
+}
+.btn-portfolio:not(:last-child){
+    margin-right: 8px;
 }
 /* .button-portfolio:not(:last-child){
     margin-right: 8px;
@@ -407,7 +409,10 @@ letter-spacing: 0.02em;
     border-left: 1px solid #EEEEEE;
     border-bottom: 1px solid #EEEEEE;
     border-right: 1px solid #EEEEEE;
-    margin-top: -4px;
+    
+}
+.image{
+    display: block;
 }
 .portfolio-item{
     display: inline-block;
