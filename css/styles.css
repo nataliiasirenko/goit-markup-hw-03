@@ -317,7 +317,7 @@ letter-spacing: 0.02em;
     
 }
 .contacts-footer .address{
-    margin-top: 20px;
+    
     color: #FFFFFF;
     font-style: normal;
     font-size: 14px;
@@ -328,10 +328,14 @@ letter-spacing: 0.02em;
 .contacts-footer .address:focus{
     color: var(--accent-color);
 }
-
-.footer-link{
+.f-contact-address{
+    margin-top: 20px;
+}
+.f-contact-link{
     margin-top: 9px;
 
+}
+.footer-link{
     color: rgba(255, 255, 255, 0.6);;
 
     font-style: normal;
