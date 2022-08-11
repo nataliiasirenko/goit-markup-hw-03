@@ -48,7 +48,7 @@ p{
    
 }
 .header{
-    border: 1px solid #ECECEC;
+    border-bottom: 1px solid #ECECEC;
 }
 .logo{
     
@@ -147,10 +147,12 @@ letter-spacing: 0.02em;
 .hero{
     text-align: center;
     background-color: #2F303A;
+    padding-top: 200px;
+    padding-bottom: 200px;
 
 }
 .hero-title{
-    padding-top: 200px;
+    
     margin-bottom: 30px;
     color: #FFFFFF;
     font-weight: 900;
@@ -167,7 +169,7 @@ letter-spacing: 0.02em;
     font-size: 36px;
     line-height: 1.16;
     text-align: center;
-    padding-bottom: 50px;
+    margin-bottom: 50px;
 }
 
 .team-list .subtitle{
@@ -229,7 +231,7 @@ letter-spacing: 0.02em;
     background-color: #F5F4FA;
 }
 .section-team .title{
-    padding-bottom: 50px;
+    margin-bottom: 50px;
     text-align: center;
 
     color: var(--primary-text-color);
@@ -282,7 +284,7 @@ letter-spacing: 0.02em;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
     padding: 10px 32px;
-    margin-bottom: 210px;
+    
     border: none;   
 }
 .actions{
@@ -364,9 +366,7 @@ letter-spacing: 0.02em;
 .btn-portfolio:not(:last-child){
     margin-right: 8px;
 }
-/* .button-portfolio:not(:last-child){
-    margin-right: 8px;
-} */
+
 
 .button-portfolio:hover,
 .button-portfolio:focus{
@@ -378,18 +378,14 @@ letter-spacing: 0.02em;
     font-weight: 700;
     font-size: 18px;
     line-height: 2;
-    letter-spacing: 0.06em;
-    padding-left: 24px;
-    padding-right: 24px;
-      
+    letter-spacing: 0.06em;   
 }
 .work-list .text{
-    padding-bottom: 20px;
+    
     color: var(--text-color);
     font-size: 16px;
     line-height: 1.88;
-    padding-left: 24px;
-    padding-right: 24px;
+    
    }
 .portfolio-works{
     width: 1200px;
@@ -410,6 +406,10 @@ letter-spacing: 0.02em;
     border-left: 1px solid #EEEEEE;
     border-bottom: 1px solid #EEEEEE;
     border-right: 1px solid #EEEEEE;
+    padding-left: 24px;
+    padding-right: 24px;
+    padding-top:20px;
+    padding-bottom: 20px;
     
 }
 .image{
@@ -440,7 +440,7 @@ letter-spacing: 0.02em;
     display: flex;
     align-items: center;
     justify-content: center;
-    padding-bottom: 54px;
+    margin-bottom: 54px;
 
 }
 /*  */
